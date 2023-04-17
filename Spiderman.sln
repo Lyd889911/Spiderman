@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spiderman.Console", "Spiderman.Console\Spiderman.Console.csproj", "{FB5E23A8-7F71-4CDD-802E-0476BCFC1CEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spiderman.HTTP", "Spiderman.HTTP\Spiderman.HTTP.csproj", "{E4663AD2-C651-4805-981A-5459E2E4DF9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB5E23A8-7F71-4CDD-802E-0476BCFC1CEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB5E23A8-7F71-4CDD-802E-0476BCFC1CEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB5E23A8-7F71-4CDD-802E-0476BCFC1CEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB5E23A8-7F71-4CDD-802E-0476BCFC1CEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4663AD2-C651-4805-981A-5459E2E4DF9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4663AD2-C651-4805-981A-5459E2E4DF9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4663AD2-C651-4805-981A-5459E2E4DF9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4663AD2-C651-4805-981A-5459E2E4DF9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42D93079-43F9-437B-8352-39C8881AA8A0}
+	EndGlobalSection
+EndGlobal
