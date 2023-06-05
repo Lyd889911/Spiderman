@@ -7,14 +7,14 @@ namespace Spiderman.HTTP
 {
     public class Spider
     {
-        public Task<string> Request(HttpOptionBuilder option)
+        public async Task<string> Request(HttpOptionBuilder option)
         {
             switch (option.RequestMode)
             {
                 case RequestMode.API:
-                    return APIRequest(option);
+                    return await APIRequest(option);
                 case RequestMode.Selenium:
-                    return SeleniumRequest(option);
+                    return await SeleniumRequest(option);
             }
             return null;
         }
